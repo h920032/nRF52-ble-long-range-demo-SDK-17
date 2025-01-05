@@ -69,6 +69,11 @@
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
 
+#define ADV_INTERVAL 300
+#define DEVICE_NAME "Long range demo"
+#define SCAN_INTERVAL 160
+#define SCAN_WINDOW 160
+
 #define CONN_INTERVAL_DEFAULT           (uint16_t)(MSEC_TO_UNITS(7.5, UNIT_1_25_MS))    /**< Default connection interval used at connection establishment by central side. */
 
 #define CONN_INTERVAL_MIN               (uint16_t)(MSEC_TO_UNITS(7.5, UNIT_1_25_MS))    /**< Minimum acceptable connection interval, in 1.25 ms units. */

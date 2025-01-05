@@ -1,0 +1,48 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <ExecutionProfileWindow/>
+ <FrameBuffer/>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="ble_app_blinky_pca10056_s140"/>
+  <ProjectSessionItem path="ble_app_blinky_pca10056_s140;ble_app_blinky_pca10056_s140"/>
+  <ProjectSessionItem path="ble_app_blinky_pca10056_s140;ble_app_blinky_pca10056_s140;Application"/>
+  <ProjectSessionItem path="ble_app_blinky_pca10056_s140;ble_app_blinky_pca10056_s140;nRF_Segger_RTT"/>
+  <ProjectSessionItem path="ble_app_blinky_pca10056_s140;ble_app_blinky_pca10056_s140;System Files"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="32" y="422" useTextEdit="1" path="../../../main.c" left="0" selected="1" top="404" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="9" y="75" useTextEdit="1" path="../../../../../../external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" left="0" top="58" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="59" y="27" useTextEdit="1" path="flash_placement.xml" left="0" top="17" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="40" y="11435" useTextEdit="1" path="../config/sdk_config.h" left="0" top="11430" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="553" useTextEdit="1" path="../../../../../../components/softdevice/s140/headers/ble_gap.h" left="0" top="536" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="ble_app_blinky_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
+</session>
