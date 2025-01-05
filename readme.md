@@ -1,3 +1,7 @@
+Porting to SDK 17.1 (2025/01/05 updated)
+
+---
+
 # Long range demo kit
 This application is a demo kit that can be used to easily test the Bluetooth 5 long range feature with the nRF52840.
 
@@ -39,27 +43,27 @@ This application is a demo kit that can be used to easily test the Bluetooth 5 l
 
 | LEDs        |            |                                                                               
 | ------------- |:-------------:|                                                                      
-| LED 1      | «on»: coded phy  |     
-|            | «slow blinking»: 1Mbps     |                
-| LED 2      | «on»: 0 dBm |    
-|            | «slow blinking»: 8 dBm  |                 
-| LED 3 |   «fast blinking»: non-connectable advertising  |   
-| ·                |                   |                                         
-| LED 4 |  «fast blinking»: connectable advertising  |  
-|            |  «on»: connected state   |     
+| LED 1      | Â«onÂ»: coded phy  |     
+|            | Â«slow blinkingÂ»: 1Mbps     |                
+| LED 2      | Â«onÂ»: 0 dBm |    
+|            | Â«slow blinkingÂ»: 8 dBm  |                 
+| LED 3 |   Â«fast blinkingÂ»: non-connectable advertising  |   
+| Â·                |                   |                                         
+| LED 4 |  Â«fast blinkingÂ»: connectable advertising  |  
+|            |  Â«onÂ»: connected state   |     
 
 </td><td>
 
 | Buttons        |            |       
 | ------------- |:-------------:|                                  
 | Button 1      |  Switch between coded phy and 1Mbps |  
-|     ·          |                          |                  
+|     Â·          |                          |                  
 | Button 2      | Switch between 0 dbm and 8 dBm |    
-| ·                |                   |                     
+| Â·                |                   |                     
 | Button 3 |  Switch between non-connectable and connectable advertising  |
-| ·                |                   |          
+| Â·                |                   |          
 | Button 4  |  Not in use |          
-| ·        |            |                         
+| Â·        |            |                         
 
 </td></tr> </table>
                
@@ -72,14 +76,14 @@ This application is a demo kit that can be used to easily test the Bluetooth 5 l
 
 | LEDs        |            |                                                                                          
 | ------------- |:-------------:|                                                                                     
-| LED 1      | «on»: coded phy|    
-|     | «slow blinking»: 1Mbps|                                  
-| LED 2      | «on»: 0 dBm |     
-|     |  «slow blinking»: 8 dBm |                              
-| LED 3 |   «on»: scanning, trying to connect | 
-| | «slow blinking»: scanning|                 
-| LED 4 |  «on»: connected state |     
-| | «toggling»: changing state upon received adv report |     
+| LED 1      | Â«onÂ»: coded phy|    
+|     | Â«slow blinkingÂ»: 1Mbps|                                  
+| LED 2      | Â«onÂ»: 0 dBm |     
+|     |  Â«slow blinkingÂ»: 8 dBm |                              
+| LED 3 |   Â«onÂ»: scanning, trying to connect | 
+| | Â«slow blinkingÂ»: scanning|                 
+| LED 4 |  Â«onÂ»: connected state |     
+| | Â«togglingÂ»: changing state upon received adv report |     
 
 
 </td><td>
@@ -87,13 +91,13 @@ This application is a demo kit that can be used to easily test the Bluetooth 5 l
 | Buttons        |            |       
 | ------------- |:-------------:|                                  
 | Button 1      |  Switch between coded phy and 1Mbps |     
-| ·        |            |                
+| Â·        |            |                
 | Button 2      | Switch between 0 dbm and 8 dBm |       
-| ·        |            |                   
-| Button 3 | Switch between «scanning» and «scanning, trying to	connect» |
-| ·        |            | 
+| Â·        |            |                   
+| Button 3 | Switch between Â«scanningÂ» and Â«scanning, trying to	connectÂ» |
+| Â·        |            | 
 | Button 4  |  Not in use |
-| ·        |            |                                      
+| Â·        |            |                                      
 
 </td></tr> </table>
 
